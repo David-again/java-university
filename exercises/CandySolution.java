@@ -27,10 +27,14 @@ public class CandySolution {
 
         for (int i = 0; i < numberOfCandy; i++) {
             int candy = T[i];
-            int count = 0;
+
+            int count;
             if (candyCount.containsKey(candy)) {
-                count += 1;
+                count = candyCount.get(candy);
+            }else{
+                count = 0;
             }
+            ++count;
             candyCount.put(candy, count);
         }
         System.out.println(candyCount);

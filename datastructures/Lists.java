@@ -6,7 +6,7 @@ public class Lists {
 
 	public static void main(String[] args) {
 		// 1. Create a collection
-		ArrayList<String> cities = new ArrayList();
+		ArrayList<String> cities = new ArrayList<>();
 		
 		// 2. Add some elements (no need to pre-specify it's length (before adding items.
 		cities.add("Melbourne");
