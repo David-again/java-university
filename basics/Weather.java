@@ -6,6 +6,8 @@ public class Weather {
 		int temp = 65;
 		if (temp > 80 ) {
 			System.out.println("It's pleasant. Wear shorts and t-shirt");
+		} else {
+			System.out.println("Perhaps wear a jacket... it's gonna be chilly.");
 		}
 	}
 }
